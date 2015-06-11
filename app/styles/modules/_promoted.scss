@@ -1,0 +1,83 @@
+
+section.promoted {
+  header.discovery-col-header {
+    color: $grey;
+    font-size: 1em;
+  }
+
+  ul {
+    @include ul-reset;
+  }
+
+  li {
+    width: 24.5%;
+    float: left;
+    text-overflow: hidden;
+    margin-right: 0.5%;
+  }
+  img {
+    height: 160px;
+    width: auto;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: 0;
+    span {
+      font-size: 0.75em;
+      display: block;
+
+      &:first-child {
+        font-size: 1.2em;
+        color: $blue;
+      }
+    }
+  }
+}
+
+
+aside.promoted {
+  h3 {
+    font-weight: bold;
+    color: $grey;
+  }
+  ul {
+    @include ul-reset;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    color: $blue;
+  }
+}
+
+
+.continue {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: $continue-background;
+
+  header {
+    background: $grey;
+    padding: 1em;
+    text-align: center;
+
+    p, a {
+      height: 2em;
+      color: white;
+      margin: 0;
+    }
+
+    a {
+      position: absolute;
+      right: 1em;
+      top: 1em;
+    }
+  }
+}
