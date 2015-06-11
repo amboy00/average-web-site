@@ -1,0 +1,8 @@
+{
+  "name": "average-web-site",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.4",
+    "foundation": "~5.5.2"
+  }
+}
